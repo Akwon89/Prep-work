@@ -1,0 +1,159 @@
+body {
+    background-color:black;
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+    left: -20px;
+}
+ul li {    
+    background: #DFE60F;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 0.4em;
+    font-size: 1em;
+    height: 16px;
+    text-align: center;
+    font-family: Helvetica, Sans-Serif;
+}
+
+
+ol {
+    list-style-type: none;
+    position: relative;
+    left: -20px;
+}
+ol li{
+        background: #DFE60F;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 0.4em;
+    font-size: 1em;
+    height: 50px;
+    text-align: center;
+    font-family: Helvetica, Sans-Serif;
+}
+
+
+#container1,
+#container2,
+#container3 {
+    
+	max-width: 800px;
+    margin: 0 auto;
+    background-color: green;
+    border-radius: 15px;
+}
+
+
+
+.titles{
+	font-family:Helvetica, sans-serif;
+	font-size:2em;
+	text-align:center;
+	padding-top:25px;
+	padding-bottom:25px;
+	color:yellow; 
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+
+}
+.titles:hover{
+    transform: rotate(-30deg) scale(1.5);
+}
+
+.list{
+    font-family:Helvetica, sans-serif;
+    font-size:1.5em;
+    color:yellow;
+       -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+.list:hover{
+    transform: rotate(-30deg) scale(1.5);
+
+}
+
+
+
+h1 {    
+	font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: yellow;
+}
+
+p {
+	text-align: center;
+    padding:10px ;
+    font-size: 30px;
+}
+
+
+
+h2 {
+	font-family: Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: yellow;
+
+}
+
+a {
+	text-decoration:none;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+}
+
+a:link{
+	color:black;
+}
+a:visited{
+	color:black;
+}
+a:hover{
+
+	color:red;
+	
+}
+a:active{
+	color:red;
+}
+
+li.active {
+    background-color: red;
+    color: yellow;
+}
+
+img {
+    
+    box-shadow: rgba(0,0,0,0.2) 10px 10px;
+    border-radius:15px;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    transition: opacity 350ms ease;
+    
+}
+img.hide {
+    opacity: 0;
+}
+
+
